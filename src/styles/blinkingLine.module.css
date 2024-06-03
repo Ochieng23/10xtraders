@@ -1,0 +1,36 @@
+/* components/BlinkingLine.module.css */
+.blinkingLine {
+    width: 4%;
+    height: 10px;
+    background-color: black;
+    animation: heartbeat 1s infinite;
+
+    display: inline-block;
+    
+  
+  
+    animation: heartbeat 1s infinite;
+    margin-left: 0.1em;
+    position: relative;
+    top: 0.1em;
+  }
+  
+  @keyframes heartbeat {
+    0%, 100% {
+      opacity: 0;
+      transform: scaleY(1);
+    }
+    25% {
+      opacity: 0;
+      transform: scaleY(0.5);
+    }
+    50% {
+      opacity: 1;
+      transform: scaleY(1.5);
+    }
+    75% {
+      opacity: 0.5;
+      transform: scaleY(0.5);
+    }
+  }
+  
