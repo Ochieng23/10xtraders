@@ -133,7 +133,7 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden ml-28 md:flex md:gap-x-6 items-center">
-              <NavLink href="#features">Trading Bot</NavLink>
+              <NavLink href="#features">Trade Bot Builder</NavLink>
               <div
                 className="relative"
                 onMouseLeave={handleMouseLeave}
@@ -238,19 +238,19 @@ export function Header() {
                             href="#insight3item1"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Tracker 
+                            Tracker
                           </Link>
                           <Link
                             href="#insight3item2"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Screener 
+                            Screener
                           </Link>
                           <Link
                             href="#insight3item3"
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                           >
-                            Technical Analysis 
+                            Technical Analysis
                           </Link>
                           <Link
                             href="#insight3item4"
