@@ -17,21 +17,22 @@ import { Logo } from "./Logo";
 */
 const navigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    { name: "Techology", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Learning Center", href: "#" },
+    { name: "Book a Session ", href: "#" },
+    { name: "For Traders ", href: "#" },
   ],
   support: [
-    { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-    { name: "API Status", href: "#" },
+    { name: "Automated Solutions", href: "#" },
+    { name: "Insights & Analysis", href: "#" },
+    { name: "Real Time Alerts", href: "#" },
+    { name: "Request a Demo", href: "#" },
   ],
   company: [
     { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
+    { name: "Careers", href: "#" },
+    { name: "Contact", href: "#" },
     { name: "Press", href: "#" },
     { name: "Partners", href: "#" },
   ],
@@ -159,7 +160,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  Legal
+                  Social
                 </h3>
                 <div className="flex flex-col py-5 space-y-6 md:order-2">
                   {navigation.social.map((item) => (
@@ -177,7 +178,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+        <div className="mt-16 border-t border-gray-900/10 pt-8 py-10 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
             <p className="mt-8 text-xl text-center leading-5 text-black font-bold md:order-1 md:mt-0">
               &copy; 2020 Your Company, Inc. All rights reserved.
