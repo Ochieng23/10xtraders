@@ -10,7 +10,7 @@ const BlinkingLine = () => {
 
 export default function Hero() {
   return (
-    <Container className="relative pb-16 bg-slate-100 mt-7 pt-20 text-center lg:pt-22 shadow-md isolate">
+    <div className="relative pb-16 bg-slate-100 mt-7 pt-20 text-center lg:pt-22 shadow-md isolate">
       <div className="relative isolate -z-10">
         <svg
           className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
@@ -109,6 +109,6 @@ export default function Hero() {
           Your browser does not support the video tag.
         </video>
       </div>
-    </Container>
+    </div>
   );
 }
