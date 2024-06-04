@@ -96,7 +96,7 @@ function Features() {
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
               <h2 className="text-4xl font-bold text-black">{post2.title}</h2>
-              <p className="text-gray-500">
+              <p className="text-black text-xl">
                 {truncateText(post2.description, 50)}
               </p>
               <Link href="#" className="mt-4 inline-block text-blue-500">
@@ -113,7 +113,7 @@ function Features() {
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
               <h2 className="text-4xl font-bold text-black">{post3.title}</h2>
-              <p className="text-gray-500">
+              <p className="text-black text-xl">
                 {truncateText(post3.description, 50)}
               </p>
               <Link href="#" className="mt-4 inline-block text-blue-500">
@@ -149,7 +149,7 @@ function Features() {
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
               <h2 className="text-4xl font-bold text-black">{post4.title}</h2>
-              <p className="text-gray-500">
+              <p className="text-black text-xl">
                 {truncateText(post4.description, 70)}
               </p>
               <Link href="#" className="mt-4 inline-block text-blue-500">
