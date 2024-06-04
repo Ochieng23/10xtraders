@@ -9,7 +9,7 @@ const BlinkingLine = () => {
 };
 export default function Hero() {
   return (
-    <Container className="pb-16 bg-slate-50 mt-7 pt-20 text-center lg:pt-22 shadow-md">
+    <Container className="pb-16 bg-slate-100 mt-7 pt-20 text-center lg:pt-22 shadow-md">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Natural{" "}
         <span className="relative whitespace-nowrap text-lime-600">
