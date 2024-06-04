@@ -12,7 +12,7 @@ export default function Home() {
       <Hero/>
      </div>
      <div>
-     {/* <Features/> */}
+     <Features/>
      </div>
      
       
