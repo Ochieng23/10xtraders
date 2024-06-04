@@ -37,7 +37,7 @@ function PartnersPage1() {
       </p>
       <ul
         role="list"
-        className="flex items-center justify-center gap-x-8 gap-y-10 xl:gap-x-12"
+        className="flex items-center justify-center gap-x-8 gap-y-10  xl:gap-x-12"
       >
         {logosPage1.map((company) => (
           <li key={company.name} className="flex">
