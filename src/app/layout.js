@@ -1,17 +1,12 @@
-import { Inter, Lexend } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
 
-const inter = Inter({
+const poppins = Poppins({
+  weight: ["400", "500", "600", "700"], // Specify the weights you need
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-inter",
-});
-
-const lexend = Lexend({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-lexend",
+  variable: "--font-poppins",
 });
 
 export const metadata = {
@@ -24,12 +19,11 @@ export default function RootLayout({ children }) {
     <html
       className={clsx(
         "h-full scroll-smooth bg-white antialiased",
-        inter.variable,
-        lexend.variable
+        poppins.variable
       )}
       lang="en"
     >
-      <body className={inter.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

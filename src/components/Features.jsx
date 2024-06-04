@@ -51,9 +51,9 @@ function Features() {
   }
 
   return (
-    <div className="mt-0 flex-col gap-10 bg-white px-10 py-10">
+    <div className="mt-0 flex-col gap-10 bg-slate-50 px-10 py-10">
       <Link href="#">
-        <div className="mt-2 flex flex-col gap-7 rounded-md bg-white md:flex-row">
+        <div className="mt-2 flex flex-col gap-7 rounded-md  md:flex-row">
           {/* Text Section: Right */}
           <div className="flex w-full flex-col  justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
@@ -81,7 +81,7 @@ function Features() {
         </div>
       </Link>
       <Link href="#">
-        <div className="mt-2 flex flex-col gap-10 rounded-md bg-white md:flex-row">
+        <div className="mt-2 flex flex-col gap-10 rounded-md  md:flex-row">
           {/* Image Section: Left */}
           <div className="group relative overflow-hidden rounded-bl-md rounded-tl-md md:w-2/5">
             <Image
@@ -108,7 +108,7 @@ function Features() {
         </div>
       </Link>
       <Link href="#">
-        <div className="mt-2 flex flex-col gap-10 rounded-md bg-white md:flex-row">
+        <div className="mt-2 flex flex-col gap-10 rounded-md  md:flex-row">
           {/* Text Section: Right */}
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
@@ -134,7 +134,7 @@ function Features() {
         </div>
       </Link>
       <Link href="#">
-        <div className="mt-2 flex flex-col gap-10 rounded-md bg-white md:flex-row">
+        <div className="mt-2 flex flex-col gap-10 rounded-md  md:flex-row">
           {/* Image Section: Left */}
           <div className="group relative overflow-hidden rounded-bl-md rounded-tl-md md:w-2/5">
             <Image
