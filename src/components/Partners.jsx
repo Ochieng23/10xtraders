@@ -32,12 +32,12 @@ const logosPage2 = [
 function PartnersPage1() {
   return (
     <div className="mt-0 lg:mt-0 bg-white py-5 px-1">
-      <p className="font-bold text-base text-slate-900 text-center">
+      <p className="font-bold text-xl text-base text-slate-300 text-center">
         Free via our partner brokers & exchanges
       </p>
       <ul
         role="list"
-        className="flex items-center justify-center gap-x-8 gap-y-10  xl:gap-x-12"
+        className="flex items-center mt-6 justify-center gap-x-8 gap-y-10  xl:gap-x-12"
       >
         {logosPage1.map((company) => (
           <li key={company.name} className="flex">
