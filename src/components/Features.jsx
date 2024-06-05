@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import img1 from "../images/ExploreX-1-1.webp";
+import { GoArrowUpRight } from "react-icons/go";
 
 // Sample post data for illustration
 const post = {
   _id: "1",
+  tag: "SMART INVESTMENT",
   slug: "sample-post",
   mainImage: img1,
   title: "Trade Smarter. Invest Better.",
@@ -15,6 +17,7 @@ const post = {
 
 const post2 = {
   _id: "2",
+  tag: "STRATEGIC TRADING",
   slug: "sample-post2",
   mainImage: img1,
   title: "Insights & Strategies",
@@ -24,6 +27,7 @@ const post2 = {
 
 const post3 = {
   _id: "3",
+  tag: "FEEDBACK",
   slug: "sample-post3",
   mainImage: img1,
   title: "Intelligent Alerts",
@@ -33,6 +37,7 @@ const post3 = {
 
 const post4 = {
   _id: "4",
+  tag: "EXPLORE",
   slug: "sample-post4",
   mainImage: img1,
   title: "Strategy Vault",
@@ -56,25 +61,28 @@ function Features() {
         <div className="mt-2 flex flex-col gap-7 rounded-md  md:flex-row">
           {/* Text Section: Right */}
           <div className="flex w-full flex-col  justify-between px-8 py-40 md:w-3/5">
-            <div className="flex flex-col gap-4">
-            <h2 className="text-4xl font-bold text-black max-w-l">
-                {post.title}
-              </h2>
+            <div className="flex  flex-col gap-4">
+              <h3 className="text-yellow-400 font-semibold">{post.tag}</h3>
+              <h2 className="text-4xl font-bold text-black">{post.title}</h2>
               <p className="text-black text-xl">
                 {truncateText(post.description, 70)}
               </p>
-              <Link href="#" className="mt-4 inline-block text-blue-500">
-                Get Started
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center text-lime-600"
+              >
+                <span>Get Started</span>
+                <GoArrowUpRight className="ml-2" />
               </Link>
             </div>
           </div>
           {/* Image Section: Left */}
-          <div className="group relative overflow-hidden rounded-bl-md rounded-tl-md md:w-2/5">
+          <div className="group relative overflow-hidden mt-8 rounded-bl-md rounded-tl-md md:w-2/5">
             <Image
               src={post.mainImage}
               width={400}
               height={400}
-              className="max-h-[500px] w-full rounded-bl-md rounded-tl-md object-cover"
+              className="max-h-[400px] w-full rounded-bl-md rounded-tl-md object-cover"
               alt="main blog image"
             />
           </div>
@@ -88,23 +96,27 @@ function Features() {
               src={post2.mainImage}
               width={400}
               height={400}
-              className="max-h-[500px] w-full rounded-bl-md rounded-tl-md object-cover"
+              className="max-h-[400px] w-full rounded-bl-md rounded-tl-md object-cover"
               alt="main blog image"
             />
           </div>
           {/* Text Section: Right */}
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
+              <h3 className="text-yellow-400 font-semibold">{post2.tag}</h3>
               <h2 className="text-4xl font-bold text-black">{post2.title}</h2>
               <p className="text-black text-xl">
                 {truncateText(post2.description, 50)}
               </p>
-              <Link href="#" className="mt-4 inline-block text-blue-500">
-                Get Started
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center text-lime-600"
+              >
+                <span>Get Started</span>
+                <GoArrowUpRight className="ml-2" />
               </Link>
             </div>
           </div>
-          
         </div>
       </Link>
       <Link href="#">
@@ -112,12 +124,17 @@ function Features() {
           {/* Text Section: Right */}
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
+              <h3 className="text-yellow-400 font-semibold">{post3.tag}</h3>
               <h2 className="text-4xl font-bold text-black">{post3.title}</h2>
               <p className="text-black text-xl">
                 {truncateText(post3.description, 50)}
               </p>
-              <Link href="#" className="mt-4 inline-block text-blue-500">
-                Get Started
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center text-lime-600"
+              >
+                <span>Get Started</span>
+                <GoArrowUpRight className="ml-2" />
               </Link>
             </div>
           </div>
@@ -127,7 +144,7 @@ function Features() {
               src={post3.mainImage}
               width={400}
               height={400}
-              className="max-h-[500px] w-full rounded-bl-md rounded-tl-md object-cover"
+              className="max-h-[400px] w-full rounded-bl-md rounded-tl-md object-cover"
               alt="main blog image"
             />
           </div>
@@ -141,26 +158,29 @@ function Features() {
               src={post4.mainImage}
               width={400}
               height={400}
-              className="max-h-[500px] w-full rounded-bl-md rounded-tl-md object-cover"
+              className="max-h-[400px] w-full rounded-bl-md rounded-tl-md object-cover"
               alt="main blog image"
             />
           </div>
           {/* Text Section: Right */}
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
+              <h3 className="text-yellow-400 font-semibold">{post4.tag}</h3>
               <h2 className="text-4xl font-bold text-black">{post4.title}</h2>
               <p className="text-black text-xl">
                 {truncateText(post4.description, 70)}
               </p>
-              <Link href="#" className="mt-4 inline-block text-blue-500">
-                Get Started
+              <Link
+                href="#"
+                className="mt-4 inline-flex items-center text-lime-600"
+              >
+                <span>Get Started</span>
+                <GoArrowUpRight className="ml-2" />
               </Link>
             </div>
           </div>
-          
         </div>
       </Link>
-     
     </div>
   );
 }
