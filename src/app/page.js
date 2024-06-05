@@ -17,8 +17,7 @@ export default function Home() {
           <Hero />
         </div>
 
-        <PartnersPage1 />
-        <PartnersPage2 />
+        <Partners/>
         <div className="relative">
           <div
             className="absolute inset-0 flex items-center"
