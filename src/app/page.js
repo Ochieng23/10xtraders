@@ -32,6 +32,7 @@ export default function Home() {
           <Features />
         </div>
         <AdvancedFeatures />
+        <Reviews/>
         <CallToAction />
         
       </main>
