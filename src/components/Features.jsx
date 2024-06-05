@@ -125,8 +125,8 @@ function Features() {
           <div className="flex w-full flex-col justify-between px-8 py-40 md:w-3/5">
             <div className="flex flex-col gap-4">
               <h3 className="text-yellow-400 font-semibold">{post3.tag}</h3>
-              <h2 className="text-4xl font-bold text-black">{post3.title}</h2>
-              <p className="text-black text-xl">
+              <h2 className="text-4xl mt-4 font-bold text-black">{post3.title}</h2>
+              <p className="text-black mt-4 text-xl">
                 {truncateText(post3.description, 50)}
               </p>
               <Link
