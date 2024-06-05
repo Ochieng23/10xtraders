@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import Hero from "@/components/Hero";
 import Partners, { PartnersPage1, PartnersPage2 } from "@/components/Partners";
 import Image from "next/image";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         </div>
         <AdvancedFeatures />
         <CallToAction />
+        
       </main>
       <Footer />
     </>
