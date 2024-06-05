@@ -15,10 +15,18 @@ export function CallToAction() {
           </h2>
 
           <div className="mt-10 flex justify-center space-x-5">
-            <Button href="/register" color="white">
+            <Button
+              className="px-8 py-4 text-lg font-bold"
+              href="/register"
+              color="white"
+            >
               Request Demo
             </Button>
-            <Button href="/register" color="blue">
+            <Button
+              className="px-8 py-4 text-lg font-bold"
+              href="/register"
+              color="blue"
+            >
               Get Started
             </Button>
           </div>

@@ -10,8 +10,8 @@ const BlinkingLine = () => {
 
 export default function Hero() {
   return (
-    <div className="relative pb-16 bg-gray-50 mt-7 pt-20 text-center lg:pt-22 shadow-md isolate">
-      <div className="relative isolate -z-10">
+    <div className="relative pb-20 bg-gray-50 mt-7 pt-20 text-center lg:pt-22 shadow-md isolate">
+      <div className="relative isolate -z-10 py-10">
         <svg
           className="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-100 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
@@ -57,7 +57,6 @@ export default function Hero() {
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Natural{" "}
         <span className="relative whitespace-nowrap ">
-         
           <span className="relative">Language</span>
           <br />
         </span>{" "}
@@ -70,19 +69,19 @@ export default function Hero() {
         decisions.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button variant="outline" href="/register"><span className="font-bold">Request Demo</span></Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          // variant="outline"
-          color="blue"
+          variant="outline"
+          href="/register"
+          className="px-8 py-4 text-lg font-bold"
         >
-          {/* <svg
-            aria-hidden="true"
-            className="h-3 w-3 flex-none fill-lime-600 group-active:fill-current"
-          >
-            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
-          </svg> */}
-          <span className="ml-3 ">Get Started</span>
+          Get A Demo
+        </Button>
+        <Button
+          href="/get-started"
+          color="blue"
+          className="px-8 py-4 text-lg font-bold"
+        >
+          Get Started
         </Button>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
