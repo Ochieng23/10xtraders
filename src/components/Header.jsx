@@ -1,6 +1,5 @@
 "use client";
 import { useState, useRef } from "react";
-
 import Link from "next/link";
 import { Menu, Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
@@ -61,44 +60,49 @@ function MobileNavIcon({ open }) {
 
 function MobileNavigation() {
   return (
-    <Popover>
-      <Popover.Button
-        className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none"
-        aria-label="Toggle Navigation"
-      >
-        {({ open }) => <MobileNavIcon open={open} />}
-      </Popover.Button>
-      <Transition>
-        <Transition.Child
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0"
-          enterTo="opacity-100"
-          leave="duration-150 ease-in"
-          leaveFrom="opacity-100"
-          leaveTo="opacity-0"
-        >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
-        </Transition.Child>
-        <Transition.Child
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <Popover.Panel className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
-          </Popover.Panel>
-        </Transition.Child>
-      </Transition>
-    </Popover>
+    <Menu as="div">
+      {({ open }) => (
+        <>
+          <Menu.Button
+            className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none"
+            aria-label="Toggle Navigation"
+          >
+            <MobileNavIcon open={open} />
+          </Menu.Button>
+          <Transition>
+            <Transition.Child
+              enter="duration-150 ease-out"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="duration-150 ease-in"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <Menu.Items className="fixed inset-0 bg-slate-300/50" />
+            </Transition.Child>
+            <Transition.Child
+              enter="duration-150 ease-out"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="duration-100 ease-in"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <Menu.Items className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
+                <MobileNavLink href="#features">Features</MobileNavLink>
+                <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
+                <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+                <hr className="m-2 border-slate-300/40" />
+                <MobileNavLink href="/login">Sign in</MobileNavLink>
+              </Menu.Items>
+            </Transition.Child>
+          </Transition>
+        </>
+      )}
+    </Menu>
   );
 }
+
 export function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
