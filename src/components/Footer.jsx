@@ -180,8 +180,8 @@ export default function Footer() {
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 py-10 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
-            <p className="mt-8 text-xl text-center leading-5 text-black font-bold md:order-1 md:mt-0">
-              &copy; 2020 Your Company, Inc. All rights reserved.
+            <p className="mt-8 text-sm text-center leading-5 text-black font-display md:order-1 md:mt-0">
+              &copy; 2024 10xtraders.ai, Inc. All rights reserved.
             </p>
             <p className="mt-8 text-xs leading-6 text-center text-gray-600">
               Bear in mind that all of the examples you see on this website are

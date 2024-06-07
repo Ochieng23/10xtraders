@@ -34,14 +34,14 @@ function Partners() {
       </p>
       <ul
         role="list"
-        className="flex flex-wrap items-center justify-center gap-x-8 gap-y-10 mt-6 xl:gap-x-12"
+        className="flex flex-wrap items-center px-1 justify-center gap-x-15 gap-y-8 mt-6 xl:gap-x-12"
       >
         {logos.map((company) => (
           <li key={company.name} className="flex">
             <Image
               src={company.logo}
               alt={company.name}
-              width={150}
+              width={140}
               height={50}
               unoptimized
             />

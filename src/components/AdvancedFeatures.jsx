@@ -47,6 +47,7 @@ export default function AdvancedFeatures() {
   return (
     <div className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h3 className="text-yellow-400 text-center font-semibold">Customize</h3>
         <h2 className="text-3xl text-center font-extrabold tracking-tight text-gray-900">
           Comprehensive Trading Automations Solutions
         </h2>
