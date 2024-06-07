@@ -54,13 +54,13 @@ export default function Hero() {
           />
         </div>
       </div>
-      <h1 className="mx-auto  max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto px-2 max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Natural{" "}
         <span className="relative whitespace-nowrap ">
           <span className="relative">Language</span>
           <br />
         </span>{" "}
-         Trading Automation
+        Trading Automation
         <BlinkingLine />
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
@@ -86,7 +86,7 @@ export default function Hero() {
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
         <video
-          className="rounded-lg border-3 "
+          className="rounded-lg border-3  "
           width="1000"
           height="600"
           controls
