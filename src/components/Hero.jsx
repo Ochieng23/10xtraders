@@ -78,7 +78,7 @@ export default function Hero() {
         <Button
           href="/get-started"
           color="blue"
-          className="px-16 sm:w-auto py-4 text-lg font-bold"
+          className="px-8 md:px-16 sm:w-auto py-4 text-lg font-bold"
         >
           Get Started
         </Button>
