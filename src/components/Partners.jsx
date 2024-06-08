@@ -14,23 +14,23 @@ import acy from "../images/Official-Partners-Logo-300x46.webp";
 import fxtm from "../images/logo-dark.svg";
 const logos = [
   { name: "Interactive Brokers", logo: interactive },
-  { name: "Fidelity", logo: fidelity },
+
   { name: "Forex.com", logo: forex },
-  { name: "Tickmill", logo: tickmill },
+ 
   { name: "Binance", logo: binance },
-  { name: "CFI Trade", logo: cfi },
+  
   { name: "FXCM", logo: fxcm },
   { name: "Blueberry Markets", logo: blueberry },
-  { name: "Eightcap", logo: eightcup },
-  { name: "AvaTrade", logo: avatrade },
+  
+  
   { name: "ACY Securities", logo: acy },
-  { name: "FXTM", logo: fxtm },
+  
 ];
 
 function Partners() {
   return (
     <div className="bg-white py-8 px-10 sm:px-6 lg:px-8">
-      <p className="font-bold text-xl text-gray-600 text-center mb-6">
+      <p className="font-bold text-xl text-slate-400 text-center mb-6">
         Free via our partner brokers & exchanges
       </p>
       <ul
