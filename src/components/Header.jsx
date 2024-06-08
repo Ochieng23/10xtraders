@@ -90,10 +90,11 @@ function MobileNavigation() {
             >
               <Menu.Items className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
                 <MobileNavLink href="#features">Features</MobileNavLink>
-                <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
+                <MobileNavLink href="#testimonials">Resources</MobileNavLink>
+                <MobileNavLink href="#testimonials">For Brokers</MobileNavLink>
                 <MobileNavLink href="#pricing">Pricing</MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <MobileNavLink href="/login">Sign in</MobileNavLink>
+                <MobileNavLink href="/login">Get Started</MobileNavLink>
               </Menu.Items>
             </Transition.Child>
           </Transition>
@@ -129,153 +130,148 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 z-50 w-full bg-white py-4 shadow-md sm:py-0">
+    <header className="fixed top-0 shadow z-50 w-full bg-slate-50  bg-opacity-95 py-4 sm:py-0">
       <Container>
-        <nav className="flex justify-between">
-          <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
-            </Link>
-            <div className="hidden ml-28 md:flex md:gap-x-6 items-center">
-              <NavLink href="#features">Trade Bot Builder</NavLink>
+        <nav className="flex justify-between items-center">
+          <Link href="/" aria-label="Home">
+            <Logo className="h-10 w-auto" />
+          </Link>
+          <div className="hidden md:flex md:items-center md:gap-x-6 lg:gap-x-8 ml-auto">
+            <NavLink href="#features">Features</NavLink>
+            <div
+              className="relative"
+              onMouseLeave={handleMouseLeave}
+              onBlur={handleBlur}
+            >
               <div
-                className="relative"
-                onMouseLeave={handleMouseLeave}
-                onBlur={handleBlur}
+                className="inline-flex items-center gap-x-1.5 text-sm font-display text-gray-900 cursor-pointer"
+                onMouseEnter={handleMouseEnter}
+                onFocus={handleFocus}
+                ref={buttonRef}
               >
+                Resources
+                <ChevronDownIcon
+                  className="h-5 w-5 text-gray-400"
+                  aria-hidden="true"
+                />
+              </div>
+              {isDropdownOpen && (
                 <div
-                  className="inline-flex items-center gap-x-1.5 text-sm font-semibold text-gray-900 cursor-pointer"
+                  className="absolute right-0 z-10 mt-0 w-48 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                   onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
                   onFocus={handleFocus}
-                  ref={buttonRef}
+                  onBlur={handleBlur}
+                  ref={dropdownRef}
                 >
-                  Insights
-                  <ChevronDownIcon
-                    className="h-5 w-5 text-gray-400"
-                    aria-hidden="true"
-                  />
-                </div>
-                {isDropdownOpen && (
-                  <div
-                    className="absolute right-0 z-10 mt-0 w-48 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    onFocus={handleFocus}
-                    onBlur={handleBlur}
-                    ref={dropdownRef}
-                  >
-                    <div className="py-1">
-                      <div className="relative group">
+                  <div className="py-1">
+                    <div className="relative group">
+                      <Link
+                        href="#insight1"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Stock
+                        <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                      </Link>
+                      <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight1"
+                          href="#insight1item1"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                          Stock
-                          <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                          Tracker
                         </Link>
-                        <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
-                          <Link
-                            href="#insight1item1"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Tracker
-                          </Link>
-                          <Link
-                            href="#insight1item2"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Screener
-                          </Link>
-                          <Link
-                            href="#insight1item2"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Technical Analysis
-                          </Link>
-                        </div>
+                        <Link
+                          href="#insight1item2"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Screener
+                        </Link>
+                        <Link
+                          href="#insight1item2"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Technical Analysis
+                        </Link>
                       </div>
-                      <div className="relative group">
+                    </div>
+                    <div className="relative group">
+                      <Link
+                        href="#insight2"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Forex
+                        <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                      </Link>
+                      <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight2"
+                          href="#insight2item1"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                          Forex
-                          <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                          Tracker
                         </Link>
-                        <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
-                          <Link
-                            href="#insight2item1"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Tracker
-                          </Link>
-                          <Link
-                            href="#insight2item2"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Screener
-                          </Link>
-                          <Link
-                            href="#insight2item3"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Technical Analysis
-                          </Link>
-                          <Link
-                            href="#insight2item4"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Sentiment Analysis
-                          </Link>
-                        </div>
+                        <Link
+                          href="#insight2item2"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Screener
+                        </Link>
+                        <Link
+                          href="#insight2item3"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Technical Analysis
+                        </Link>
+                        <Link
+                          href="#insight2item4"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Sentiment Analysis
+                        </Link>
                       </div>
-                      <div className="relative group">
+                    </div>
+                    <div className="relative group">
+                      <Link
+                        href="#insight3"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                      >
+                        Crypto
+                        <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                      </Link>
+                      <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight3"
+                          href="#insight3item1"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
-                          Crypto
-                          <ChevronRightIcon className="h-5 w-5 ml-2 text-gray-400 inline-block" />
+                          Tracker
                         </Link>
-                        <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
-                          <Link
-                            href="#insight3item1"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Tracker
-                          </Link>
-                          <Link
-                            href="#insight3item2"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Screener
-                          </Link>
-                          <Link
-                            href="#insight3item3"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Technical Analysis
-                          </Link>
-                          <Link
-                            href="#insight3item4"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                          >
-                            Sentiment Analysis
-                          </Link>
-                        </div>
+                        <Link
+                          href="#insight3item2"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Screener
+                        </Link>
+                        <Link
+                          href="#insight3item3"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Technical Analysis
+                        </Link>
+                        <Link
+                          href="#insight3item4"
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                        >
+                          Sentiment Analysis
+                        </Link>
                       </div>
                     </div>
                   </div>
-                )}
-              </div>
-              <NavLink href="#videos">Videos</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+                </div>
+              )}
             </div>
+            <NavLink href="#videos">For Brokers</NavLink>
+            <NavLink href="#pricing">Pricing</NavLink>
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div>
+          <div className="flex ml-4 items-center gap-x-5 md:gap-x-8">
             <Button
               className="hidden md:block lg:inline"
               href="/register"
