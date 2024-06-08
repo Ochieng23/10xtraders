@@ -134,7 +134,7 @@ export function Header() {
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="/" aria-label="Home">
-            <Logo className="h-10 w-auto" />
+            <Logo className="h-10 md:h-10 w-auto" />
           </Link>
           <div className="hidden md:flex md:items-center md:gap-x-6 lg:gap-x-8 ml-auto">
             <NavLink href="#features">Features</NavLink>
