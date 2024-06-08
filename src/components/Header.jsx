@@ -89,9 +89,11 @@ function MobileNavigation() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-                <MobileNavLink href="#features">Features</MobileNavLink>
-                <MobileNavLink href="#testimonials">Resources</MobileNavLink>
-                <MobileNavLink href="#testimonials">For Brokers</MobileNavLink>
+                <MobileNavLink href="#features">
+                  Trade Bot Builder
+                </MobileNavLink>
+                <MobileNavLink href="#testimonials">Insights</MobileNavLink>
+                <MobileNavLink href="#testimonials">Videos</MobileNavLink>
                 <MobileNavLink href="#pricing">Pricing</MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
                 <MobileNavLink href="/login">Get Started</MobileNavLink>
@@ -137,7 +139,7 @@ export function Header() {
             <Logo className="h-10 md:h-10 w-auto" />
           </Link>
           <div className="hidden md:flex md:items-center md:gap-x-6 lg:gap-x-8 ml-auto">
-            <NavLink href="#features">Features</NavLink>
+            <NavLink href="#features">Trade Bot Builder</NavLink>
             <div
               className="relative"
               onMouseLeave={handleMouseLeave}
@@ -149,7 +151,7 @@ export function Header() {
                 onFocus={handleFocus}
                 ref={buttonRef}
               >
-                Resources
+                Insights
                 <ChevronDownIcon
                   className="h-5 w-5 text-gray-400"
                   aria-hidden="true"
@@ -268,7 +270,7 @@ export function Header() {
                 </div>
               )}
             </div>
-            <NavLink href="#videos">For Brokers</NavLink>
+            <NavLink href="#videos">Videos</NavLink>
             <NavLink href="#pricing">Pricing</NavLink>
           </div>
           <div className="flex ml-4 items-center gap-x-5 md:gap-x-8">
