@@ -54,7 +54,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <h1 className="mx-auto px-2 max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="text-4xl sm:text-6xl md:text-7xl font-semibold tracking-tight text-slate-900 leading-tight">
         Natural{" "}
         <span className="relative whitespace-nowrap ">
           <span className="relative">Language</span>
@@ -63,7 +63,7 @@ export default function Hero() {
         Trading Automation
         <BlinkingLine />
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-900">
         Effortly design, test, and automate trading strategies using plain
         english commands. Simplify your trading process and make smarter
         decisions.
