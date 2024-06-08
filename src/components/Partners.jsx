@@ -1,30 +1,33 @@
 import React from "react";
 import Image from "next/image";
 import interactive from "../images/IB-Website-Logo.svg";
-import fidelity from "../images/bbm-logo-1.svg";
-import forex from "../images/Fid_Logo_Blk-1-1-768x214.webp";
-import tickmill from "../images/Tickmill-logo-2.webp";
+import fidelity from "../images/huobi.jpg";
+import tv from "../images/tradingview.svg";
+
 import binance from "../images/Binance-Website-Logo.svg";
 import fxcm from "../images/FXCM-Website-Logo.svg";
-import cfi from "../images/CFI.webp";
+import mql5 from "../images/mql5-2.png";
 import blueberry from "../images/Official-Partners-Logo-ACY.svg";
-import eightcup from "../images/Eightcap-Website-Logo.svg";
-import avatrade from "../images/avatrade1-300x43.webp";
+import xm from "../images/xm.webp";
+import kucoin from "../images/KuCoin-logo.png";
 import acy from "../images/Official-Partners-Logo-300x46.webp";
-import fxtm from "../images/logo-dark.svg";
+import fxtm from "../images/Bybit-logo.png";
 const logos = [
   { name: "Interactive Brokers", logo: interactive },
+  { name: "tv", logo: tv },
+  { name: "mql5", logo: mql5 },
+  { name: "xm", logo: xm },
+  { name: "kucoin", logo: kucoin },
+  { name: "bybit", logo: fxtm },
+  { name: "huobi", logo: fidelity },
+  // { name: "Forex.com", logo: forex },
 
-  { name: "Forex.com", logo: forex },
- 
   { name: "Binance", logo: binance },
-  
+
   { name: "FXCM", logo: fxcm },
   { name: "Blueberry Markets", logo: blueberry },
-  
-  
+
   { name: "ACY Securities", logo: acy },
-  
 ];
 
 function Partners() {

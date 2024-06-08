@@ -54,19 +54,18 @@ export default function Hero() {
           />
         </div>
       </div>
-      <h1 className="text-4xl sm:text-6xl md:text-7xl font-semibold tracking-tight text-slate-900 leading-tight">
-        Natural{" "}
+      <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight">
+        Turbocharge{" "}
         <span className="relative whitespace-nowrap ">
-          <span className="relative">Language</span>
+          <span className="relative">Your </span>
           <br />
         </span>{" "}
-        Trading Automation
+        Trading Scripts With AI
         <BlinkingLine />
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-900">
-        Effortly design, test, and automate trading strategies using plain
-        english commands. Simplify your trading process and make smarter
-        decisions.
+        Design, Test and Implement your trading strategies using natural
+        language and our proprietary trading script platform
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button
