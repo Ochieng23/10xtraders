@@ -67,18 +67,18 @@ export default function Hero() {
         Design, Test and Implement your trading strategies using natural
         language and our proprietary trading script platform
       </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      <div className="mt-10  flex justify-center gap-x-6">
         <Button
           variant="outline"
           href="/register"
-          className="px-8 py-4 text-lg font-bold"
+          className="px-8 py-4  text-lg font-bold"
         >
           Get A Demo
         </Button>
         <Button
           href="/get-started"
           color="blue"
-          className="px-8 py-4 text-lg font-bold"
+          className="px-16 sm:w-auto py-4 text-lg font-bold"
         >
           Get Started
         </Button>
