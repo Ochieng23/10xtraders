@@ -54,7 +54,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-slate-900 leading-tight">
+      <h1 className="text-3xl sm:text-6xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
         Turbocharge{" "}
         <span className="relative whitespace-nowrap ">
           <span className="relative">Your </span>

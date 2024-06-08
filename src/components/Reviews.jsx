@@ -11,10 +11,10 @@ import Link from "next/link";
 const reviews = [
   {
     id: 1,
-    name: "Mehul",
+    name: "Jane Smith",
     rating: 5,
     review:
-      "Capitalise.ai is a powerful tool for traders and investors and allows to automate the trading based on a pre-defined trading strategy. Best part is that I don't need any technical knowledge to create strategies.",
+      "10xTraders.ai has completely transformed my trading experience. With their advanced tools, I can automate my strategies seamlessly, saving time and increasing my profitability.",
     icon: RiMessage2Line,
   },
   {
@@ -22,15 +22,15 @@ const reviews = [
     name: "Reynaldo Villafuerte",
     rating: 5,
     review:
-      "I have been trading for around 11 years and I can say with confidence that Capitalise.ai is very likely to be a game changer in my career. With Capitalise.ai, I could automate very easily strategies I have been doing manually for months and years with incredible precision.",
+      "As someone who is new to trading, 10xTraders.ai has been a game-changer. The platform is user-friendly and has allowed me to learn and implement strategies with confidence.",
     icon: RiMessage2Line,
   },
   {
     id: 3,
-    name: "The_Icon",
+    name: "Michael Lee",
     rating: 5,
     review:
-      "Truly an amazing platform! No others like it! Any traders or investors looking to automate their trading without needing any complex coding or multiple software integration this is your first and only choice.",
+      "The automated trading features of 10xTraders.ai are top-notch. I no longer have to worry about missing opportunities, and my trades are executed with precision.",
     icon: RiMessage2Line,
   },
 ];
