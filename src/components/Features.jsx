@@ -11,18 +11,18 @@ const posts = [
     tag: "AUTOMATE",
     slug: "sample-post",
     mainImage: img1,
-    title: "Plan Like A Human. Trade Like A Machine.",
+    title: "Trade Smarter. Invest Better.",
     description:
-      "Leave emotional trading out of the game with smart and efficient automated execution. Never miss another trading opportunity & always get out precisely as planned.",
+      "Remove the guesswork from trading with advanced automated solutions. Stay ahead of the market with precise and timely executions. Maximize your trading potential and make informed decisions effortlessly.",
   },
   {
     _id: "2",
     tag: "ANALYZE",
     slug: "sample-post2",
     mainImage: img1,
-    title: "Research & Analysis",
+    title: "Insights & Strategies",
     description:
-      "Quickly test & analyze with backtest and simulated trading strategies. Our research and analysis tools allow you to make informed trading decisions in order to improve your strategies' performance.",
+      "Easily evaluate and refine your strategies with our advanced testing and simulation tools. Our insights and analysis resources empower you to make strategic trading decisions, enhancing your performance and maximizing returns.",
   },
   {
     _id: "3",
