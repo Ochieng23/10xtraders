@@ -130,7 +130,7 @@ export function Header() {
   };
 
   return (
-    <header className="fixed top-0 shadow z-50 w-full bg-slate-50  bg-opacity-95 py-4 sm:py-0">
+    <header className="fixed top-0 shadow z-50 w-full bg-slate-50  bg-opacity-95 py-5 sm:py-0">
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="/" aria-label="Home">
@@ -144,7 +144,7 @@ export function Header() {
               onBlur={handleBlur}
             >
               <div
-                className="inline-flex items-center gap-x-1.5 text-sm font-display text-gray-900 cursor-pointer"
+                className="inline-flex items-center gap-x-1.5 text-sm font-medium text-slate-900 cursor-pointer"
                 onMouseEnter={handleMouseEnter}
                 onFocus={handleFocus}
                 ref={buttonRef}
