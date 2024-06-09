@@ -84,27 +84,20 @@ export default function Hero() {
         </Button>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
-        {/* <iframe
-          width="900"
-          height="600"
-          src="https://www.youtube.com/embed/VeGBH7JqEto?si=-CU86M8qXE-IGyMm"
-          title="YouTube video player"
-          className="rounded-lg border-6 w-80 h-40  md:w-100 lg:w-80 lg:h-50"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe> */}
-         <video width="1000" height="600" controls preload="none">
-      <source src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1717961718/1717950881_cfbjov.mp4" type="video/mp4" />
-      <track
-        src="/path/to/captions.vtt"
-        kind="subtitles"
-        srcLang="en"
-        label="English"
-      />
-      Your browser does not support the video tag.
-    </video>
+        <video width="1000" height="600" controls preload="none">
+          <source
+            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1717961718/1717950881_cfbjov.mp4"
+            type="video/mp4"
+          />
+          <track
+            src="/path/to/captions.vtt"
+            kind="subtitles"
+            srcLang="en"
+            label="English"
+            className="rounded-lg border-6"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );
