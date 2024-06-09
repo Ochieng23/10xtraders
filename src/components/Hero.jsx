@@ -4,9 +4,6 @@ import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import styles from "../styles/blinkingLine.module.css";
 
-// Remove the import of the video file
-// import video from "../../public/1717888461.mp4";
-
 const BlinkingLine = () => {
   return <div className={styles.blinkingLine}></div>;
 };
@@ -87,22 +84,16 @@ export default function Hero() {
         </Button>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
-        <video
-          className="rounded-lg border-3"
+        <iframe
           width="1000"
           height="600"
-          controls
-          preload="none"
-        >
-          <source src="/1717888461.mp4" type="video/mp4" />
-          <track
-            src="/path/to/captions.vtt"
-            kind="subtitles"
-            srcLang="en"
-            label="English"
-          />
-          Your browser does not support the video tag.
-        </video>
+          src="https://www.youtube.com/embed/Kt4mviVZGUU?si=D2BMoog2UiYZJeHy"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );
