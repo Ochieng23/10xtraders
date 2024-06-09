@@ -8,7 +8,7 @@ import { GoArrowUpRight } from "react-icons/go";
 const posts = [
   {
     _id: "1",
-    tag: "AUTOMATE",
+    tag: "Third Party Signals",
     slug: "sample-post",
     mainImage: img1,
     title: "Trade Smarter. Invest Better.",
@@ -17,7 +17,7 @@ const posts = [
   },
   {
     _id: "2",
-    tag: "ANALYZE",
+    tag: "Fine Tune",
     slug: "sample-post2",
     mainImage: img1,
     title: "Insights & Strategies",
@@ -35,7 +35,7 @@ const posts = [
   },
   {
     _id: "4",
-    tag: "EXPLORE",
+    tag: "Reason With Us",
     slug: "sample-post4",
     mainImage: img1,
     title: "Strategy Vault",
