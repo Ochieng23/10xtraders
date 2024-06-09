@@ -89,6 +89,7 @@ export default function Hero() {
           height="600"
           src="https://www.youtube.com/embed/Kt4mviVZGUU?si=D2BMoog2UiYZJeHy"
           title="YouTube video player"
+          className="rounded-lg border-3"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
