@@ -21,7 +21,7 @@ function MobileNavLink({ href, children }) {
           href={href}
           className={classNames(
             active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-            "block px-4 py-2 text-sm"
+            "block px-4 py-4 text-sm"
           )}
         >
           {children}
