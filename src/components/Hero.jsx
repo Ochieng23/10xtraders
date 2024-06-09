@@ -87,9 +87,9 @@ export default function Hero() {
         <iframe
           width="1000"
           height="600"
-          src="https://www.youtube.com/embed/dlCPPCz94NI?si=2_QStaxVkGclE58a"
+          src="https://www.youtube.com/embed/VeGBH7JqEto?si=-CU86M8qXE-IGyMm"
           title="YouTube video player"
-          className="rounded-lg border-1"
+          className="rounded-lg border-6"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
