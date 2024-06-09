@@ -4,6 +4,9 @@ import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import styles from "../styles/blinkingLine.module.css";
 
+// Remove the import of the video file
+// import video from "../../public/1717888461.mp4";
+
 const BlinkingLine = () => {
   return <div className={styles.blinkingLine}></div>;
 };
@@ -56,7 +59,7 @@ export default function Hero() {
       </div>
       <h1 className="text-3xl sm:text-6xl md:text-6xl font-extrabold tracking-tight text-slate-900 leading-tight">
         Turbocharge{" "}
-        <span className="relative whitespace-nowrap ">
+        <span className="relative whitespace-nowrap">
           <span className="relative">Your </span>
           <br />
         </span>{" "}
@@ -67,11 +70,11 @@ export default function Hero() {
         Design, Test and Implement your trading strategies using natural
         language and our proprietary trading script platform
       </p>
-      <div className="mt-10  flex justify-center gap-x-6">
+      <div className="mt-10 flex justify-center gap-x-6">
         <Button
           variant="outline"
           href="/register"
-          className="px-8 py-4  text-lg font-bold"
+          className="px-8 py-4 text-lg font-bold"
         >
           Get A Demo
         </Button>
@@ -85,13 +88,13 @@ export default function Hero() {
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
         <video
-          className="rounded-lg border-3  "
+          className="rounded-lg border-3"
           width="1000"
           height="600"
           controls
           preload="none"
         >
-          <source src="/path/to/video.mp4" type="video/mp4" />
+          <source src="/1717888461.mp4" type="video/mp4" />
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"
