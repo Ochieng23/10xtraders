@@ -93,7 +93,7 @@ export default function Hero() {
           poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1717991219/WhatsApp_Image_2024-06-09_at_22.56.39_ftmf1n.jpg"
         >
           <source
-            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1717961718/1717950881_cfbjov.mp4"
+            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718047328/1718020077_driuup.mp4"
             type="video/mp4"
           />
           <track
