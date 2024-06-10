@@ -1,8 +1,8 @@
 import Image from "next/image";
-import image1 from "../images/ad1.png";
-import image2 from "../images/ad2.webp";
-import image3 from "../images/ad3.webp";
-import image4 from "../images/ad4.webp";
+import image1 from "../images/adf1.jpeg";
+import image2 from "../images/adf2.jpeg";
+import image3 from "../images/adf3.jpeg";
+import image4 from "../images/adf4.jpeg";
 
 const products = [
   {
@@ -67,21 +67,21 @@ export default function AdvancedFeatures() {
               <div className="flex-1 p-6 flex flex-col">
                 <div className="aspect-w-4 aspect-h-3 bg-white sm:aspect-none sm:h-48">
                   <Image
-                    width={400}
-                    height={300}
+                    width={300}
+                    height={200}
                     layout="responsive"
                     src={product.imageSrc}
                     alt={product.imageAlt}
                     className="object-center object-contain sm:h-full sm:w-full"
                   />
                 </div>
-                <h3 className="mt-0 text-sm font-bold text-center text-gray-900">
+                <h3 className="mt-10 text-sm font-bold text-center text-gray-900">
                   <a href={product.href}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {product.name}
                   </a>
                 </h3>
-                <p className="mt-0 text-sm text-center text-gray-500">
+                <p className="mt-6 text-sm text-center text-gray-500">
                   {product.description}
                 </p>
                 <div className="flex-1 flex items-end justify-center mt-4">
