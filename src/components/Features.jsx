@@ -11,27 +11,27 @@ const posts = [
     tag: "Third Party Signals",
     slug: "sample-post",
     mainImage: img1,
-    title: "Trade Smarter. Invest Better.",
+    title: "Optimize & Plan",
     description:
-      "Remove the guesswork from trading with advanced automated solutions. Stay ahead of the market with precise and timely executions. Maximize your trading potential and make informed decisions effortlessly.",
+      "Effortlessly enhance and fine-tune your strategies with our cutting-edge testing and simulation tools. Our comprehensive insights and analysis resources empower you to make informed trading decisions, boosting your performance and maximizing your returns.s",
   },
   {
     _id: "2",
     tag: "Fine Tune",
     slug: "sample-post2",
     mainImage: img1,
-    title: "Insights & Strategies",
+    title: "Refine & Execute",
     description:
-      "Easily evaluate and refine your strategies with our advanced testing and simulation tools. Our insights and analysis resources empower you to make strategic trading decisions, enhancing your performance and maximizing returns.",
+      "Enhance and perfect your strategies with our state-of-the-art testing and simulation tools. Our insights and analytical resources empower you to make informed trading decisions, boosting your performance and maximizing your returns.",
   },
   {
     _id: "3",
     tag: "FEEDBACK",
     slug: "sample-post3",
     mainImage: img1,
-    title: "Intelligent Alerts",
+    title: "Automated Signals",
     description:
-      "Set up custom alerts to keep you updated on the go. 10xTraders.ai constantly tracks real-time market movements, key financial indicators, and economic changes 24/7, ensuring you never miss a critical update.",
+      "Create personalized alerts to stay informed wherever you are. 10xTraders.ai scripts continuously monitors real-time market trends, essential financial indicators, and economic developments 24/7, ensuring you never miss a crucial update.",
   },
   {
     _id: "4",

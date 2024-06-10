@@ -2,6 +2,7 @@
   "name": "tradingbot",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +20,7 @@
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "react-slick": "^0.30.2",
+    "sharp": "^0.33.4",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
