@@ -7,37 +7,37 @@ import image4 from "../images/ad4.webp";
 const products = [
   {
     id: 1,
-    name: "TradingView Alerts",
+    name: "Automated Trading Solutions",
     href: "#",
     description:
-      "Use any line or tech indicator available on TradingView to trigger your automated trading strategies.",
+      "From optimizing your daily trades to developing sophisticated automated systems, 10xTraders.ai empowers you to automate your trading processes seamlessly, without any coding.",
     imageSrc: image1,
     imageAlt: "TradingView Alerts illustration.",
   },
   {
     id: 2,
-    name: "Dollar Cost Averaging (DCA)",
+    name: "Trading Signals",
     href: "#",
     description:
-      "Increase your trade size on scheduled time intervals to limit exposure to volatility or spread out one larger investment into smaller investments.",
+      "Leverage any line or technical indicator on TradingView to activate your automated trading strategies.",
     imageSrc: image2,
     imageAlt: "Dollar Cost Averaging illustration.",
   },
   {
     id: 3,
-    name: "Trade At A Specific Timing",
+    name: "Explore More",
     href: "#",
     description:
-      "Time your entry & exit in a way that only if a certain event happens at a certain time your orders will be triggered.",
+      "Incremental Investing\nGradually increase your investment size over scheduled intervals to minimize volatility or distribute a large investment into smaller increments.",
     imageSrc: image3,
     imageAlt: "Trade Timing illustration.",
   },
   {
     id: 4,
-    name: "Trailing Take Profit",
+    name: "Dynamic Profit Lock",
     href: "#",
     description:
-      "Set your Trailing-Stop to trigger only after a certain profit was reached, so you can lock your profits while guarding your position.",
+      "Implement trailing stop orders to secure profits once a predefined level is reached, while protecting your position.",
     imageSrc: image4,
     imageAlt: "Trailing Take Profit illustration.",
   },
@@ -47,7 +47,9 @@ export default function AdvancedFeatures() {
   return (
     <div className="bg-white py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h3 className="text-yellow-400 text-center font-semibold">Prompt Generator</h3>
+        <h3 className="text-yellow-400 text-center font-semibold">
+          Prompt Generator
+        </h3>
         <h2 className="text-3xl text-center font-extrabold tracking-tight text-gray-900">
           Comprehensive Trading Automations Solutions
         </h2>
