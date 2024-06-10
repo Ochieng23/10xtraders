@@ -68,13 +68,13 @@ export default function Hero() {
         language and our proprietary trading script platform
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button
+        {/* <Button
           variant="outline"
           href="/register"
           className="px-8 py-4 text-lg font-bold"
         >
           Get A Demo
-        </Button>
+        </Button> */}
         <Button
           href="/get-started"
           color="blue"

@@ -38,9 +38,9 @@ const posts = [
     tag: "Reason With Us",
     slug: "sample-post4",
     mainImage: img1,
-    title: "Strategy Vault",
+    title: "Strategy Library",
     description:
-      "Running out of ideas? We've got you covered with an extensive range of real-time strategy examples to help you get started effortlessly and swiftly.",
+      "Out of fresh ideas? We’ve got you covered with a wide array of live strategy examples, ready to kickstart your trading journey smoothly and efficiently.",
   },
   // Add more posts here if needed
 ];
