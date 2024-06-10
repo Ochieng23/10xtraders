@@ -84,7 +84,13 @@ export default function Hero() {
         </Button>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
-        <video width="1000" height="600" controls preload="none">
+        <video
+          width="1000"
+          height="600"
+          controls
+          preload="none"
+          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1717991219/WhatsApp_Image_2024-06-09_at_22.56.39_ftmf1n.jpg"
+        >
           <source
             src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1717961718/1717950881_cfbjov.mp4"
             type="video/mp4"
@@ -92,9 +98,8 @@ export default function Hero() {
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"
-            srcLang="en"
+            srclang="en"
             label="English"
-            className="rounded-lg border-6"
           />
           Your browser does not support the video tag.
         </video>
