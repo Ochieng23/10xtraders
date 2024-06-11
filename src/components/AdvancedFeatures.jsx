@@ -7,19 +7,19 @@ import image4 from "../images/adf4.jpeg";
 const products = [
   {
     id: 1,
-    name: "Automated Trading Solutions",
+    name: "Trading Signals ",
     href: "#",
     description:
-      "From optimizing your daily trades to developing sophisticated automated systems, 10xTraders.ai empowers you to automate your trading processes seamlessly, without any coding.",
+      "Leverage any line or technical indicator on TradingView to activate your automated trading strategies.",
     imageSrc: image1,
     imageAlt: "TradingView Alerts illustration.",
   },
   {
     id: 2,
-    name: "Trading Signals",
+    name: " Automated Trading Solutions",
     href: "#",
     description:
-      "Leverage any line or technical indicator on TradingView to activate your automated trading strategies.",
+      " From optimizing your daily trades to developing sophisticated automated systems, 10xTraders.ai empowers you to automate your trading processes seamlessly, without any coding.",
     imageSrc: image2,
     imageAlt: "Dollar Cost Averaging illustration.",
   },
@@ -51,12 +51,12 @@ export default function AdvancedFeatures() {
           Prompt Generator
         </h3>
         <h2 className="text-3xl text-center font-extrabold tracking-tight text-gray-900">
-          Comprehensive Trading Automations Solutions
+          Automated Trading Solutions
         </h2>
         <p className="text-center text-slate-400 text-xl px-10 mt-4">
-          From simplifying your daily trades to building intricate automated
-          systems, 10XTraders.ai empowers you to automate your trading
-          effortlessly, with zero coding required.
+          From optimizing your daily trades to developing sophisticated
+          automated systems, 10xTraders.ai empowers you to automate your trading
+          processes seamlessly, without any coding.
         </p>
         <div className="mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
@@ -67,8 +67,8 @@ export default function AdvancedFeatures() {
               <div className="flex-1 p-6 flex flex-col">
                 <div className="aspect-w-4 aspect-h-3 bg-white sm:aspect-none sm:h-48">
                   <Image
-                    width={250}
-                    height={200}
+                    width={200}
+                    height={180}
                     layout="responsive"
                     src={product.imageSrc}
                     alt={product.imageAlt}
