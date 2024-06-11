@@ -59,17 +59,13 @@ function Features() {
     <div className="mt-0 flex flex-col gap-10 bg-white px-10 py-10">
       {posts.map((post, index) => (
         <Link href="#" key={post._id} className="no-underline hover:no-underline">
-          <div
-            className={`mt-2 flex flex-col md:flex-row items-center ${
-              index % 2 === 0 ? "" : "md:flex-row-reverse"
-            }`}
-          >
+          <div className={`mt-2 flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
             {/* Image Section */}
             <div className="md:w-1/2 p-4">
               <Image
                 src={post.mainImage}
-                width={400}
-                height={400}
+                width={500}
+                height={300}
                 className="object-cover"
                 alt="main blog image"
               />
