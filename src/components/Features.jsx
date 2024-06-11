@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import img1 from "../images/small_GIF.gif";
+import img1 from "../images/ExploreX-1-1.webp";
 import { GoArrowUpRight } from "react-icons/go";
 
 // Sample post data for illustration
