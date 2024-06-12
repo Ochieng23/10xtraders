@@ -139,7 +139,7 @@ export function Header() {
             <Logo className="h-10 md:h-10 w-auto" />
           </Link>
           <div className="hidden md:flex md:items-center md:gap-x-6 lg:gap-x-8 ml-auto">
-            <NavLink href="#features">Trade Bot Builder</NavLink>
+            <NavLink href="#features">TradeBotBuilder</NavLink>
             <div
               className="relative"
               onMouseLeave={handleMouseLeave}
