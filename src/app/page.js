@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
         <AdvancedFeatures />
-        <Reviews />
+        {/* <Reviews /> */}
         <CallToAction />
       </main>
       <Footer />
