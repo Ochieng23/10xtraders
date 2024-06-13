@@ -32,7 +32,7 @@ const posts = [
   },
   {
     _id: "3",
-    tag: "FEEDBACK",
+    tag: "Automate",
     slug: "sample-post3",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275728/30_micout.jpg",
@@ -42,7 +42,7 @@ const posts = [
   },
   {
     _id: "4",
-    tag: "Real-Time Market Insights",
+    tag: "Instant",
     slug: "sample-post4",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275745/40_ljmlr3.jpg",
@@ -52,7 +52,7 @@ const posts = [
   },
   {
     _id: "5",
-    tag: "10X Community",
+    tag: "peers",
     slug: "sample-post4",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275772/50_jsauqc.jpg",
