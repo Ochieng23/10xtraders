@@ -46,7 +46,7 @@ const posts = [
     slug: "sample-post4",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275745/40_ljmlr3.jpg",
-    title: "Strategy Library",
+    title: "Real time market insights",
     description:
       "Get access to cutting edge real time market data & analytics for comprehensive market coverage.",
   },

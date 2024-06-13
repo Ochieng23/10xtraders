@@ -49,7 +49,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <AdvancedFeatures />
+        {/* <AdvancedFeatures /> */}
         {/* <Reviews /> */}
         <CallToAction />
       </main>
