@@ -11,7 +11,8 @@ const products = [
     href: "#",
     description:
       "Leverage any line or technical indicator on TradingView to activate your automated trading strategies.",
-    imageSrc: image1,
+    imageSrc:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718281124/WhatsApp_Image_2024-06-10_at_17.36.04_siihsh.jpg",
     imageAlt: "TradingView Alerts illustration.",
   },
   {
@@ -20,7 +21,8 @@ const products = [
     href: "#",
     description:
       " From optimizing your daily trades to developing sophisticated automated systems, 10xTraders.ai empowers you to automate your trading processes seamlessly, without any coding.",
-    imageSrc: image2,
+    imageSrc:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718281124/WhatsApp_Image_2024-06-10_at_17.46.46_lptfre.jpg",
     imageAlt: "Dollar Cost Averaging illustration.",
   },
   {
@@ -29,7 +31,8 @@ const products = [
     href: "#",
     description:
       "Incremental Investing\nGradually increase your investment size over scheduled intervals to minimize volatility or distribute a large investment into smaller increments.",
-    imageSrc: image3,
+    imageSrc:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718281125/WhatsApp_Image_2024-06-10_at_18.07.32_nhrlem.jpg",
     imageAlt: "Trade Timing illustration.",
   },
   {
@@ -38,7 +41,8 @@ const products = [
     href: "#",
     description:
       "Implement trailing stop orders to secure profits once a predefined level is reached, while protecting your position.",
-    imageSrc: image4,
+    imageSrc:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718281125/WhatsApp_Image_2024-06-10_at_18.01.25_mq3ugq.jpg",
     imageAlt: "Trailing Take Profit illustration.",
   },
 ];
