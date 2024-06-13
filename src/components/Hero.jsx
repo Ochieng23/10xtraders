@@ -74,7 +74,7 @@ export default function Hero() {
             <Image
               src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295876/WhatsApp_Image_2024-06-13_at_18.08.52_rf1snh.jpg"
               alt="Image"
-              className="w-40 h-15 "
+              className="w-40 h-15 bg-slate-100"
               width={30}
               height={15}
               layout="responsive"
