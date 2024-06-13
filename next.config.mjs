@@ -5,7 +5,7 @@ const nextConfig = {
   // assetPrefix: "/nextjs",
   // basePath: "/nextjs",
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ["res.cloudinary.com"],
   },
 };
 

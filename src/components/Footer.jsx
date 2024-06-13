@@ -47,7 +47,7 @@ const navigation = {
       href: "https://www.reddit.com/user/10XTradersAI/",
       icon: (props) => (
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-black"
+          class="w-6 h-6 text-gray-800 dark:text-purple"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -187,18 +187,15 @@ export default function Footer() {
               &copy; 2024 10xtraders.ai, Inc. All rights reserved.
             </p>
             <p className="mt-8 text-xs leading-6 text-center text-gray-600">
-              Bear in mind that all of the examples you see on this website are
-              just that — examples. Really, they are just here to show you how
-              our platform works. So, dont take them as advice, instruction, or
-              guidance. The examples presented on this website, are only to be
-              regarded as a technical demonstration when used with the trading
-              system. Accordingly, these examples should not be in any way
-              construed as recommending any type of trading strategy and they do
-              not constitute any form of advice as the advisability of investing
-              by the use of any trading strategy. Any Investor who uses the
-              trading strategy must build a trading strategy on the basis of
-              independent testing and according to his / her specific
-              requirements and needs.
+              Disclaimer: Any opinions, chats, messages, news, research, prices,
+              or other information contained on this website are provided as
+              general market information for educational and entertainment
+              purposes only, and do not contribute investment advice. The
+              website should not be relied upon as a substitute for extensive
+              independent market research before making your actual trading
+              decisions. 10XTraders.ai provides software only. Any references to
+              trading, exchange, transfer, or wallet services, etc. are
+              references to services provided by third-party service providers.
             </p>
           </div>
         </div>
