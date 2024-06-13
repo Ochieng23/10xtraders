@@ -139,7 +139,9 @@ export function Header() {
             <Logo className="h-10 md:h-10 w-auto" />
           </Link>
           <div className="hidden md:flex md:items-center md:gap-x-6 lg:gap-x-8 ml-auto">
-            <NavLink href="#features">TradeBotBuilder</NavLink>
+            <NavLink href="https://10xtraders.ai/tbb1/">
+              TradeBotBuilder
+            </NavLink>
             <div
               className="relative"
               onMouseLeave={handleMouseLeave}
@@ -177,19 +179,19 @@ export function Header() {
                       </Link>
                       <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight1item1"
+                          href="https://10xtraders.ai/stock-market-snapshot/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Tracker
                         </Link>
                         <Link
-                          href="#insight1item2"
+                          href="https://10xtraders.ai/stock-screener/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Screener
                         </Link>
                         <Link
-                          href="#insight1item2"
+                          href="https://10xtraders.ai/technical-analysis/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Technical Analysis
@@ -206,25 +208,25 @@ export function Header() {
                       </Link>
                       <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight2item1"
+                          href="https://10xtraders.ai/forex-market-snapshot/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Tracker
                         </Link>
                         <Link
-                          href="#insight2item2"
+                          href="https://10xtraders.ai/forex-screener/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Screener
                         </Link>
                         <Link
-                          href="#insight2item3"
+                          href="https://10xtraders.ai/forex-analysis/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Technical Analysis
                         </Link>
                         <Link
-                          href="#insight2item4"
+                          href="https://10xtraders.ai/forex-sentiment-analysis/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Sentiment Analysis
@@ -241,25 +243,25 @@ export function Header() {
                       </Link>
                       <div className="absolute left-full top-0 hidden ml-1 w-48 origin-top-left divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 group-hover:block">
                         <Link
-                          href="#insight3item1"
+                          href="https://10xtraders.ai/crypto-market-snapshot/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Tracker
                         </Link>
                         <Link
-                          href="#insight3item2"
+                          href="https://10xtraders.ai/crypto-screener/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Screener
                         </Link>
                         <Link
-                          href="#insight3item3"
+                          href="https://10xtraders.ai/crypto-technical-analysis/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Technical Analysis
                         </Link>
                         <Link
-                          href="#insight3item4"
+                          href="https://10xtraders.ai/crypto-sentiment-analysis/"
                           className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                         >
                           Sentiment Analysis
@@ -270,13 +272,13 @@ export function Header() {
                 </div>
               )}
             </div>
-            <NavLink href="#videos">Videos</NavLink>
-            <NavLink href="#pricing">Pricing</NavLink>
+            <NavLink href="https://10xtraders.ai/how-it-works/">Videos</NavLink>
+            <NavLink href="https://10xtraders.ai/pricing/">Pricing</NavLink>
           </div>
           <div className="flex ml-4 items-center gap-x-5 md:gap-x-8">
             <Button
               className="hidden md:block lg:inline"
-              href="/register"
+              href="https://10xtraders.ai/tbb1/"
               color="blue"
             >
               <span>

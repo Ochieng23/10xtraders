@@ -15,16 +15,16 @@ export function CallToAction() {
           </h2>
 
           <div className="mt-10 flex justify-center space-x-5">
-            <Button
+            {/* <Button
               className="px-8 py-4 text-lg font-bold"
               href="/register"
               color="white"
             >
               Request Demo
-            </Button>
+            </Button> */}
             <Button
               className="px-8 py-4 text-lg font-bold"
-              href="/register"
+              href="https://10xtraders.ai/tbb1/"
               color="blue"
             >
               Get Started

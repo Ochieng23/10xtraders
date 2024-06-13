@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import img1 from "../images/invest now for the future.svg";
+import img1 from "../images/10.jpg";
+import img2 from "../images/20.jpg";
+import img3 from "../images/30.jpg";
+import img4 from "../images/40.jpg";
+import img5 from "../images/50.jpg";
 import { GoArrowUpRight } from "react-icons/go";
 
 // Sample post data for illustration
@@ -10,37 +14,51 @@ const posts = [
     _id: "1",
     tag: "Third Party Signals",
     slug: "sample-post",
-    mainImage: img1,
-    title: "Optimize & Plan",
+    mainImage:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275686/10_akawsk.jpg",
+    title: "Revolutionize Your Trading ",
     description:
-      "Effortlessly enhance and fine-tune your strategies with our cutting-edge testing and simulation tools. Our comprehensive insights and analysis resources empower you to make informed trading decisions, boosting your performance and maximizing your returns.",
+      "Automate and backtest your trading strategies seamlessly across major platforms like TV, TS, MT, and Binance.",
   },
   {
     _id: "2",
     tag: "Fine Tune",
     slug: "sample-post2",
-    mainImage: img1,
-    title: "Refine & Execute",
+    mainImage:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275708/20_dbt0kw.jpg",
+    title: "Create Custom Scripts ",
     description:
-      "Enhance and perfect your strategies with our state-of-the-art testing and simulation tools. Our insights and analytical resources empower you to make informed trading decisions, boosting your performance and maximizing your returns.",
+      "Create Proprietary, Customizable Trading Scripts & Trading Bots on demand.",
   },
   {
     _id: "3",
     tag: "FEEDBACK",
     slug: "sample-post3",
-    mainImage: img1,
-    title: "Automated Signals",
+    mainImage:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275728/30_micout.jpg",
+    title: "Powered with GPT-4 Turbo",
     description:
-      "Create personalized alerts to stay informed wherever you are. 10xTraders.ai scripts continuously monitor real-time market trends, essential financial indicators, and economic developments 24/7, ensuring you never miss a crucial update.",
+      "Automate and backtest your trading strategies seamlessly across major platforms like TV, TS, MT, and Binance.",
   },
   {
     _id: "4",
-    tag: "Reason With Us",
+    tag: "Real-Time Market Insights",
     slug: "sample-post4",
-    mainImage: img1,
+    mainImage:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275745/40_ljmlr3.jpg",
     title: "Strategy Library",
     description:
-      "Out of fresh ideas? We’ve got you covered with a wide array of live strategy examples, ready to kickstart your trading journey smoothly and efficiently.",
+      "Get access to cutting edge real time market data & analytics for comprehensive market coverage.",
+  },
+  {
+    _id: "5",
+    tag: "10X Community",
+    slug: "sample-post4",
+    mainImage:
+      "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275772/50_jsauqc.jpg",
+    title: "10X Community",
+    description:
+      "Get access to vibrant community of Traders & Developers of all levels sharing strategies and trading scripts.",
   },
   // Add more posts here if needed
 ];
@@ -74,7 +92,7 @@ function Features() {
                 src={post.mainImage}
                 width={500}
                 height={300}
-                className="object-cover"
+                className="object-cover rounded-lg"
                 alt="main blog image"
               />
             </div>
@@ -87,7 +105,7 @@ function Features() {
                   {truncateText(post.description, 30)}
                 </p>
                 <Link
-                  href="#"
+                  href="https://10xtraders.ai/tbb1/"
                   className="mt-4 inline-flex items-center text-lime-600"
                 >
                   <span>Get Started</span>
