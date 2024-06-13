@@ -87,6 +87,7 @@ export default function Hero() {
           controls
           preload="none"
           poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295014/WhatsApp_Image_2024-06-13_at_18.54.00_l0dux3.jpg"
+          autoPlay // Add this line to enable autoplay
         >
           <source
             src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718294959/1718294680_ot3vcz.mp4"
