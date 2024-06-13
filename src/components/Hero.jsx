@@ -3,7 +3,8 @@ import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import styles from "../styles/blinkingLine.module.css";
-
+import bull from "../images/bull.svg";
+import Link from "next/link";
 const BlinkingLine = () => {
   return <div className={styles.blinkingLine}></div>;
 };
@@ -68,20 +69,15 @@ export default function Hero() {
         language and our proprietary trading script platform
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        {/* <Button
-          variant="outline"
-          href="/register"
-          className="px-8 py-4 text-lg font-bold"
-        >
-          Get A Demo
-        </Button> */}
-        <Button
-          href="/get-started"
-          color="blue"
-          className="px-8 md:px-16 sm:w-auto py-4 text-lg font-bold"
-        >
-          Get Started
-        </Button>
+        <div>
+          <Link href="">
+            <button className="bg-lime-600 hover:bg-lime-600 text-white font-bold py-2 px-8 rounded-full flex items-center transition-all duration-200 ease-in-out">
+              {/* <Image src={bull} alt="Bull" width={20} height={20} className="mr-2 rounded-full" /> */}
+              <span className="text-white">GET STARTED</span>
+            </button>
+          </Link>
+          <p className="text-black text-sm">No Credit Card Required</p>
+        </div>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
         <video
