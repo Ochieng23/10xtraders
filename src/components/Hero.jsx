@@ -71,9 +71,9 @@ export default function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <div>
           <Link href="">
-            <button className="bg-lime-600 hover:bg-lime-600 text-white font-bold py-2 px-8 rounded-full flex items-center transition-all duration-200 ease-in-out">
+            <button className="bg-lime-600 hover:bg-lime-600 text-white font-bold py-2 px-10 rounded-full flex items-center transition-all duration-200 ease-in-out">
               {/* <Image src={bull} alt="Bull" width={20} height={20} className="mr-2 rounded-full" /> */}
-              <span className="text-white">GET STARTED</span>
+              <span className="text-white">Get Started</span>
             </button>
           </Link>
           <p className="text-black text-sm">No Credit Card Required</p>
@@ -86,10 +86,10 @@ export default function Hero() {
           className="rounded-lg shadow-lg border-3"
           controls
           preload="none"
-          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718280884/WhatsApp_Image_2024-06-13_at_15.13.57_xuzcyi.jpg"
+          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295014/WhatsApp_Image_2024-06-13_at_18.54.00_l0dux3.jpg"
         >
           <source
-            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718279411/1718228157_1_bbw0zv.mp4"
+            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718294959/1718294680_ot3vcz.mp4"
             type="video/mp4"
           />
           <track
