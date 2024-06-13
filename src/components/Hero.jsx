@@ -70,13 +70,16 @@ export default function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <div>
-          <Link href="">
-            <button className="bg-lime-600 hover:bg-lime-600 text-white font-bold py-2 px-10 rounded-full flex items-center transition-all duration-200 ease-in-out">
-              {/* <Image src={bull} alt="Bull" width={20} height={20} className="mr-2 rounded-full" /> */}
-              <span className="text-white">Get Started</span>
-            </button>
+          <Link legacyBehavior href="https://10xtraders.ai/tbb1/">
+            <Image
+              src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295876/WhatsApp_Image_2024-06-13_at_18.08.52_rf1snh.jpg"
+              alt="Image"
+              className="w-40 h-15 "
+              width={30}
+              height={15}
+              layout="responsive"
+            />
           </Link>
-          <p className="text-black text-sm">No Credit Card Required</p>
         </div>
       </div>
       <div className="flex items-center justify-center mt-10 lg:mt-10">
