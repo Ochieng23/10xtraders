@@ -90,7 +90,7 @@ export default function Hero() {
           className="rounded-lg shadow-lg border-3"
           controls
           preload="none"
-          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1717991219/WhatsApp_Image_2024-06-09_at_22.56.39_ftmf1n.jpg"
+          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718280884/WhatsApp_Image_2024-06-13_at_15.13.57_xuzcyi.jpg"
         >
           <source
             src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718279411/1718228157_1_bbw0zv.mp4"
