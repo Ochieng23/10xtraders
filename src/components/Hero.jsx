@@ -75,8 +75,8 @@ export default function Hero() {
               src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718541150/10xtRA_6_ic5wig.png"
               alt="Image"
               className="w-70 h-15 bg-slate-100 cursor-pointer"
-              width={200}
-              height={15}
+              width={400}
+              height={100}
               layout="responsive"
             />
           </Link>
@@ -89,11 +89,10 @@ export default function Hero() {
           className="rounded-lg shadow-lg border-3"
           controls
           preload="none"
-          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295014/WhatsApp_Image_2024-06-13_at_18.54.00_l0dux3.jpg"
-          autoPlay // Add this line to enable autoplay
+          poster="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718545277/WhatsApp_Image_2024-06-16_at_16.32.59_dwjw8g.jpg"
         >
           <source
-            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718450820/1718449913_rcmhy5.mp4"
+            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718545140/1718544412_psxf6t.mp4"
             type="video/mp4"
           />
           <track
