@@ -72,7 +72,7 @@ export default function Hero() {
         <div>
           <Link legacyBehavior href="https://10xtraders.ai/tbb1/">
             <img
-              src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718541150/10xtRA_6_ic5wig.png"
+              src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718551970/WhatsApp_Image_2024-06-16_at_18.28.52_xyowev.jpg"
               alt="Image"
               className="w-70 h-15 bg-slate-100 cursor-pointer"
               width={220}
