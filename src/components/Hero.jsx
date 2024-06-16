@@ -71,11 +71,11 @@ export default function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <div>
           <Link legacyBehavior href="https://10xtraders.ai/tbb1/">
-            <Image
-              src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718295876/WhatsApp_Image_2024-06-13_at_18.08.52_rf1snh.jpg"
+            <img
+              src="https://res.cloudinary.com/dhz4c0oae/image/upload/v1718541150/10xtRA_6_ic5wig.png"
               alt="Image"
-              className="w-40 h-15 bg-slate-100"
-              width={30}
+              className="w-70 h-15 bg-slate-100 cursor-pointer"
+              width={200}
               height={15}
               layout="responsive"
             />
@@ -93,7 +93,7 @@ export default function Hero() {
           autoPlay // Add this line to enable autoplay
         >
           <source
-            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718294959/1718294680_ot3vcz.mp4"
+            src="https://res.cloudinary.com/dhz4c0oae/video/upload/v1718450820/1718449913_rcmhy5.mp4"
             type="video/mp4"
           />
           <track

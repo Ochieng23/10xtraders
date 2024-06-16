@@ -1,11 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import img1 from "../images/10.jpg";
-import img2 from "../images/20.jpg";
-import img3 from "../images/30.jpg";
-import img4 from "../images/40.jpg";
-import img5 from "../images/50.jpg";
+
 import { GoArrowUpRight } from "react-icons/go";
 
 // Sample post data for illustration
@@ -36,9 +32,9 @@ const posts = [
     slug: "sample-post3",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275728/30_micout.jpg",
-    title: "Powered with GPT-4 Turbo",
+    title: "Powered by Complex Prompt Engineering and GPT-4 Turbo",
     description:
-      "Automate and backtest your trading strategies seamlessly across major platforms like TV, TS, MT, and Binance.",
+      "Deploy our complex prompt engineering to turbocharge precise AI-generated trading scripts",
   },
   {
     _id: "4",
@@ -46,7 +42,7 @@ const posts = [
     slug: "sample-post4",
     mainImage:
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275745/40_ljmlr3.jpg",
-    title: "Real time market insights",
+    title: "Real-time market insights",
     description:
       "Get access to cutting edge real time market data & analytics for comprehensive market coverage.",
   },
@@ -58,12 +54,12 @@ const posts = [
       "https://res.cloudinary.com/dhz4c0oae/image/upload/v1718275772/50_jsauqc.jpg",
     title: "10X Community",
     description:
-      "Get access to vibrant community of Traders & Developers of all levels sharing strategies and trading scripts.",
+      "Access a vibrant community of traders and developers to create, refine and share trade ideas and scripts.",
   },
   // Add more posts here if needed
 ];
 
-function Features() {
+function PrimaryFeatures() {
   function truncateText(text, maxLength) {
     if (!text || text.length <= maxLength) {
       return text;
@@ -88,7 +84,7 @@ function Features() {
           >
             {/* Image Section */}
             <div className="md:w-1/2 p-4">
-              <Image
+              <img
                 src={post.mainImage}
                 width={500}
                 height={300}
@@ -99,7 +95,6 @@ function Features() {
             {/* Text Section */}
             <div className="flex w-full flex-col justify-between p-4 md:w-1/2">
               <div className="flex flex-col gap-4">
-                <h3 className="text-yellow-400 font-semibold">{post.tag}</h3>
                 <h2 className="text-4xl font-bold text-black">{post.title}</h2>
                 <p className="text-black text-xl">
                   {truncateText(post.description, 30)}
@@ -120,4 +115,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default PrimaryFeatures;

@@ -96,7 +96,9 @@ function MobileNavigation() {
                 <MobileNavLink href="#testimonials">Videos</MobileNavLink>
                 <MobileNavLink href="#pricing">Pricing</MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <MobileNavLink href="/login">Get Started</MobileNavLink>
+                <MobileNavLink href="https://10xtraders.ai/tbb1/">
+                  Get Started
+                </MobileNavLink>
               </Menu.Items>
             </Transition.Child>
           </Transition>
@@ -278,13 +280,14 @@ export function Header() {
           <div className="flex ml-4 items-center gap-x-5 md:gap-x-8">
             <Button
               className="hidden md:block lg:inline"
-              href="https://10xtraders.ai/tbb1/"
-              color="blue"
+              href="https://10xtraders.ai/mstrlgn/"
+              style={{ backgroundColor: "#7bed9f", color: "black" }}
             >
               <span>
                 Get started <span className="hidden lg:inline"></span>
               </span>
             </Button>
+
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

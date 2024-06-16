@@ -34,7 +34,7 @@ function Partners() {
   return (
     <div className="bg-white py-8 px-10 sm:px-6 lg:px-8">
       <p className="font-bold text-xl text-slate-400 text-center mb-6">
-        Generate trading scripts for these and more exchanges:
+      Generate trading scripts for these major trading platforms and leading exchanges:
       </p>
       <ul
         role="list"

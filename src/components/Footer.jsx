@@ -127,7 +127,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
-                  For Brokers
+                Generate Scripts For
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
@@ -184,7 +184,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-gray-900/10 pt-8 py-10 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
           <div>
             <p className="mt-8 text-sm text-center leading-5 text-black font-display md:order-1 md:mt-0">
-              &copy; 2024 10xtraders.ai, Inc. All rights reserved.
+              &copy; 2024 10xtraders.ai, LLC. All rights reserved.
             </p>
             <p className="mt-8 text-xs leading-6 text-center text-gray-600">
               Disclaimer: Any opinions, chats, messages, news, research, prices,
