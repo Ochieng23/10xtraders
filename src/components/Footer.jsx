@@ -31,11 +31,11 @@ const navigation = {
     { name: "Crypto", href: "https://10xtraders.ai/crypto-market-snapshot/" },
   ],
   company: [
+    { name: "About", href: "https://10xtraders.ai/about/" },
     { name: "Privacy", href: "https://10xtraders.ai/privacy-policy/" },
     { name: "Terms", href: "https://10xtraders.ai/terms-of-service/" },
     { name: "Disclaimer", href: "https://10xtraders.ai/disclaimer/" },
     { name: "Support", href: "https://10xtraders.ai/support/" },
-    { name: "Support", href: "https://10xtraders.ai/about/" },
   ],
   legal: [
     { name: "Claim", href: "#" },
