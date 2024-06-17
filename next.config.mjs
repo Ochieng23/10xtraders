@@ -2,8 +2,8 @@
 const nextConfig = {
   // output: "export",
   // output: "export",
-  // assetPrefix: "/nextjs",
-  // basePath: "/nextjs",
+  // assetPrefix: "/home",
+  // basePath: "/home",
   images: {
     domains: ["res.cloudinary.com"],
   },
