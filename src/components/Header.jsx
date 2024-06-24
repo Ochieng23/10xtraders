@@ -64,7 +64,7 @@ function MobileNavigation() {
       {({ open }) => (
         <>
           <Menu.Button
-            className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none"
+            className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none max-w-full"
             aria-label="Toggle Navigation"
           >
             <MobileNavIcon open={open} />
@@ -89,12 +89,18 @@ function MobileNavigation() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-                <MobileNavLink href="#features">
+                <MobileNavLink href="https://10xtraders.ai/tbb1/">
                   Trade Bot Builder
                 </MobileNavLink>
-                <MobileNavLink href="#testimonials">Insights</MobileNavLink>
-                <MobileNavLink href="#testimonials">Videos</MobileNavLink>
-                <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+                <MobileNavLink href="https://10xtraders.ai/stock-market-snapshot/">
+                  Insights
+                </MobileNavLink>
+                <MobileNavLink href="https://10xtraders.ai/how-it-works/">
+                  Videos
+                </MobileNavLink>
+                <MobileNavLink href="https://10xtraders.ai/pricing/">
+                  Pricing
+                </MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
                 <MobileNavLink href="https://10xtraders.ai/tbb1/">
                   Get Started
@@ -280,7 +286,7 @@ export function Header() {
           <div className="flex ml-4 items-center gap-x-5 md:gap-x-8">
             <Button
               className="hidden md:block lg:inline"
-              href="https://10xtraders.ai/mstrlgn/"
+              href=" https://10xtraders.ai/login"
               style={{ backgroundColor: "#7bed9f", color: "black" }}
             >
               <span>
@@ -288,7 +294,7 @@ export function Header() {
               </span>
             </Button>
 
-            <div className="-mr-1 md:hidden">
+            <div className="-ml-9 md:hidden">
               <MobileNavigation />
             </div>
           </div>

@@ -12,6 +12,7 @@ import xm from "../images/xm.webp";
 import kucoin from "../images/KuCoin-logo.png";
 import acy from "../images/Official-Partners-Logo-300x46.webp";
 import fxtm from "../images/Bybit-logo.png";
+import tradestation from "../images/TDlogo.svg";
 const logos = [
   { name: "Interactive Brokers", logo: interactive },
   { name: "tv", logo: tv },
@@ -28,6 +29,7 @@ const logos = [
   { name: "Blueberry Markets", logo: blueberry },
 
   { name: "ACY Securities", logo: acy },
+  { name: "td", logo: tradestation },
 ];
 
 function Partners() {
