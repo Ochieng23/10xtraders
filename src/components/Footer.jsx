@@ -90,7 +90,7 @@ const navigation = {
         </svg>
       ),
     },
-    
+
     {
       name: "X",
       href: "https://x.com/10xtradersai",
@@ -184,12 +184,12 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">
                   Social
                 </h3>
-                <div className="flex flex-row py-5 space-x-6 md:order-2">
+                <div className="flex flex-col md:flex-row py-5 space-x-0 md:space-x-6 md:order-2">
                   {navigation.social.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-black hover:text-gray-500"
+                      className="text-black hover:text-gray-500 mb-4 md:mb-0"
                     >
                       <span className="sr-only">{item.name}</span>
                       <item.icon className="h-6 w-6" aria-hidden="true" />
