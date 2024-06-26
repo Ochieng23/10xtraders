@@ -89,25 +89,40 @@ function MobileNavigation() {
               leaveTo="opacity-0 scale-95"
             >
               <Menu.Items className="absolute py-4 inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-                <Link className="pt-3" href="https://10xtraders.ai/tbb1/">
+                <MobileNavLink
+                  className="pt-3"
+                  href="https://10xtraders.ai/tbb1/"
+                >
                   Trade Bot Builder
-                </Link>
+                </MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <Link className="pt-3" href="https://10xtraders.ai/stock-market-snapshot/">
+                <MobileNavLink
+                  className="pt-3"
+                  href="https://10xtraders.ai/stock-market-snapshot/"
+                >
                   Insights
-                </Link>
+                </MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <Link className="pt-3" href="https://10xtraders.ai/how-it-works/">
+                <MobileNavLink
+                  className="pt-3"
+                  href="https://10xtraders.ai/how-it-works/"
+                >
                   Videos
-                </Link>
+                </MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <Link className="pt-3" href="https://10xtraders.ai/pricing/">
+                <MobileNavLink
+                  className="pt-3"
+                  href="https://10xtraders.ai/pricing/"
+                >
                   Pricing
-                </Link>
+                </MobileNavLink>
                 <hr className="m-2 border-slate-300/40" />
-                <Link className="pt-3" href="https://10xtraders.ai/tbb1/">
+                <MobileNavLink
+                  className="pt-3"
+                  href="https://10xtraders.ai/tbb1/"
+                >
                   Get Started
-                </Link>
+                </MobileNavLink>
               </Menu.Items>
             </Transition.Child>
           </Transition>
